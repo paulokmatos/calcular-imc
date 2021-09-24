@@ -81,7 +81,53 @@ form button:hover {
   padding: 0 5px;
 }
 
-.succes {
+.success {
   padding: 0 5px;
   background-color: #26da9e;
+}
+
+
+
+@media (max-width: 680px) {
+
+  body {
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+  }
+
+ 
+
+  .container {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    padding: 20px;
+    border-radius: 0;
+  }
+}
+
+@media (max-width: 460px) {
+  .info {
+    display: none;
+  }
+  .titulo-tabela {
+    display: none;
+  }
+
+  h1 {
+    text-align: center;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    background: #fff;
+    padding: 10px;
+    border-radius: 0;
+  }
 }

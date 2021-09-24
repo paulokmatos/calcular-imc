@@ -23,15 +23,15 @@ function meuEscopo() {
 
     function resultadoIMC(imc) {
         if (imc <= 18.4) {
-            return resposta.innerHTML = `<p class="succes">Seu IMC é de ${imc} e você está abaixo do Peso ideal</p>`;
+            return resposta.innerHTML = `<p class="success">Seu IMC é de ${imc} e você está abaixo do Peso ideal</p>`;
         } else if (imc >= 18.5 && imc <= 24.9) {
-            return resposta.innerHTML = `<p class="succes">Seu IMC é de ${imc} e você está no Peso ideal</p>`;
+            return resposta.innerHTML = `<p class="success">Seu IMC é de ${imc} e você está no Peso ideal</p>`;
         } else if (imc >= 25 && imc <= 29.9) {
-            return resposta.innerHTML = `<p class="succes">Seu IMC é de ${imc} e você está com Sobrepeso</p>`;
+            return resposta.innerHTML = `<p class="success">Seu IMC é de ${imc} e você está com Sobrepeso</p>`;
         } else if (imc >= 30 && imc <= 34.9) {
-            return resposta.innerHTML = `<p class="succes">Seu IMC é de ${imc} e você está com Obesidade Grau 1</p>`;
+            return resposta.innerHTML = `<p class="success">Seu IMC é de ${imc} e você está com Obesidade Grau 1</p>`;
         } else if (imc >= 35 && imc <= 39.9) {
-            return resposta.innerHTML = `<p class="succes">Seu IMC é de ${imc} e você está com Obesidade Grau 2</p>`;
+            return resposta.innerHTML = `<p class="success">Seu IMC é de ${imc} e você está com Obesidade Grau 2</p>`;
         } else if (imc >= 75) {
             return resposta.innerHTML = `<p class="danger" style="text-align: center;">Ops! acho que você acidentalmente inseriu o peso
         <br><strong> DA SUA MÃE</strong></p>`;
