@@ -2,6 +2,8 @@
 
 ![image info](./assets/img/tabela-imc-screenshot.png)
 
+Link: https://paulokmatos.github.io/calcular-imc/
+
 Linguagens utilizadas: 
 
 - HTML 5
