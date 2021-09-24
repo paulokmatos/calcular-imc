@@ -1,6 +1,8 @@
 # Calculadora de Índice de Massa Corporal
 
+![image info](./assets/img/tabela-imc-screenshot.png)
 
+Link: https://paulokmatos.github.io/calcular-imc/
 
 Linguagens utilizadas: 
 
@@ -10,6 +12,7 @@ Linguagens utilizadas:
 
 Recursos:
 - Calcula o Índice de massa corporal
-- possui validador de campos.
-- segue boas praticas como escopo interno de função para evitar que variáveis ocupem o escopo global
+- Responsividade
 - Javascript ES6 moderno
+- possui validador de campos
+- segue boas praticas como escopo interno de função para evitar que variáveis conflitem com variáveis no escopo global
